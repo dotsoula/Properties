@@ -1,0 +1,171 @@
+.text-color {
+  color: red;
+}
+
+/* background color */
+
+.background-color {
+  background-color: rgb(189, 189, 54);
+}
+
+.text-format {
+  text-align: center;
+  text-decoration-color: red;
+}
+
+.format {
+  background-color: #de3163;
+  text-decoration: dotted;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  list-style: 1.5;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+  padding: 50px;
+  border-width: 100vh;
+}
+
+.box-model {
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  padding: 15px;
+  padding-left: 30px;
+
+  border-style: solid;
+  border-width: 5cqmin;
+}
+
+.content-box {
+  height: 100px;
+  width: 200px;
+  background-color: lightblue;
+}
+.padding {
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  background-color: lightblue;
+}
+/* i really don't see the diff btw content & border */
+.box-sizing-content {
+  box-sizing: content-box;
+  width: 200px;
+  padding: 20px;
+  border: 5px;
+  background-color: red;
+}
+
+.box-sizing-border {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 20px;
+  border: 5px;
+  background-color: red;
+}
+
+.my-box {
+  padding-left: 50px;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: red;
+  margin: 20px;
+}
+
+/* Css Display Block */
+
+.block-demo {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+/* Css Display Inline */
+/* most you display */
+.inline-demo {
+  display: inline;
+  width: 300px;
+  background-color: rgb(16, 19, 16);
+  margin: 10px;
+}
+
+/* Css Display Inline Block */
+
+.inline-demo-block {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+
+  background-color: pink;
+  margin: 10px;
+}
+
+/* Css Display none */
+.display-none {
+  display: none;
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+  margin: 10px;
+}
+
+.static-demo {
+  position: static;
+  background-color: #de3163;
+  top: 20;
+  left: 20;
+}
+
+.container {
+  position: static;
+  background-color: #de3163;
+  top: 10px;
+  left: 20px;
+}
+
+.container {
+  position: relative;
+  top: 50px;
+  right: 20px;
+  background-color: lightcoral;
+}
+
+.absolute-demo {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background-color: lightcoral;
+}
+
+.fixed-demo {
+  position: fixed;
+  top: 50px;
+  right: 20px;
+  background-color: lightcoral;
+}
+
+.transition-demo {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition-property: background-color;
+  width: ;
+  transition: 0.5s;
+}
+
+.transform-demo {
+  transform: translate();
+}
+
+.dtransform {
+  perspective: 1000px;
+  background-color: #de3163;
+
+  transform: rotateY(45deg);
+  transform: rotateX(45deg);
+  transform: rotateZ(45deg);
+}
